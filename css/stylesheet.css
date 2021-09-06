@@ -13,6 +13,10 @@ body{
     padding: 20px;
 }
 
+/* side by side div, parent container */
+.flex-box-parent{
+    display: flex;
+}
 
 /* name title that links back to home page */
 #site-title{
@@ -21,22 +25,15 @@ body{
     color: rgb(145,109,86);
 }
 
-/* home, about */
-.navbar{
-    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 18px;
-    font-style: bold;
-}       
-
 /* name title */
-#leftheader{
-    float:left;
-    width: 74%;
+#top-left-child{
+    width: 200px;
 }
 
 /* nav bar */
-#righheader{
-    float: right;
+#top-right-child{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width: 80%;
 } 
 
 .nav-title{
@@ -48,6 +45,10 @@ a{
     text-decoration: none;
 }
 
+.parent{
+    margin: 10px;
+}
+
 
 iframe{
     width: 100%;
@@ -56,7 +57,6 @@ iframe{
 
 /* image div */
 #profile-img{
-    float: right;
     /* margin-left: auto; */
 
 }
@@ -100,4 +100,8 @@ iframe{
 #bio{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 15px;
+}
+
+ul{
+    list-style-type: none;
 }
